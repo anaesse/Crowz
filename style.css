@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    display: flex;
+}
+#menu{
+    background-color: #F2EAE1;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#menu .logo{
+    display: flex;
+    align-items: center;
+    padding-top: 30px 0 0 30px;
+    margin: 30px 0 30px 100px;
+
+}
+#menu .logo img{
+    width: 40px;
+    margin-right: 15px;
+}
+#menu .intro img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#menu .intro{
+    text-align: center;
+}
+#menu #logOut{
+    padding-top: 110px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#menu .Items{
+    margin-top: 40px;
+    text-align: center;
+}
+#menu .Items li{
+    list-style: none;
+    padding: 12px 0;
+}
+#menu .Items li a{
+    text-decoration: none;
+}
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#menu .Items .sep .wan{
+    padding-left: 10px;
+}
+#menu .Items .sep .one{
+    color: rgb(245, 243, 243);
+    width: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: #E15B49;
+
+}
+#menu #logOut li{
+    list-style: none;
+    padding: 12px 0;
+}
+#menu #logOut li i{
+    color: rgb(245, 243, 243);
+    width: 20px;
+    line-height: 20px;
+    border-radius:50%;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+}
+#menu #logOut li a{
+    text-decoration: none;
+    color: #000;
+} 
+#interface{
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    position: relative;
+}
+#space{
+    display: flex;
+    padding-left: 15px;
+}
+.dash{
+    display: flex;
+    flex-basis: auto;
+    width: 50%;
+    padding-bottom: 30px;
+
+}
+.i-face{
+    padding-right:220px;
+}
+.first-box{
+    flex-basis: auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+#interface .first-box .dash .wane{
+    color: rgb(245, 243, 243);
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    background-color: #EF5744;
+    
+}
+#interface .first-box .dash i{
+    color: rgb(218, 213, 213);
+    padding-left: 15px;
+    font-size: 22px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+}
+.box{
+    display:flex;
+    width: 100%;
+}
+.second-box{
+    display: flex;
+    flex-basis: auto;
+    width: 50%;
+}
+.chart-box{
+    width: 150px;
+   }
+.chart-box .text{
+       padding-right: 12px;
+   }
+   .chart-box i{
+       font-size: 7px;
+       width: 13px;
+       line-height: 13px;
+       border-radius: 50%;
+       text-align: center;
+       color:#fff;
+       background-color: rgb(129, 191, 187);
+       
+   }
+   .chart-box .fa-arrow-alt-down{
+       background-color: #EF5744;
+   }
+   .chart-box span{
+       color: rgb(175, 172, 172);
+       border-bottom: 1px solid rgb(175, 172, 172);
+   }
+   .upgrade{
+       display: flex;
+       border-radius: 15px;
+       background-color: #F2EAE0;
+       justify-content: space-between;
+       align-items:flex-end;
+       flex-basis: auto;
+       width: 50%;
+       margin-top: 30px;
+       margin-right: 30px;
+
+   }
+   .upgrade .grade{
+       padding:20px 0 20px 20px;
+   }
+   .upgrade #now{
+ color: #fff;
+ margin-bottom: 15px;
+ margin-right: 15px;
+ margin-left: 10px;
+ width: 50px;
+ height: 50px;
+ line-height: 50px;
+ border-radius: 50%;
+ text-align: center;
+ background-color: #EF5744;
+   }
+   .upgrade .grade #now{
+    flex-basis: auto;
+    width: 50%;
+   }
+   .upgrade img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.upgrade #up{
+    color: #EF5744;
+    font-size: 20px;
+}
+.upgrade b{
+    font-size: 20px;
+}
+
+.upgrade #pro{
+    color: #a7a7a1;
+}
+.act-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    
+}
+.act-box .updates{
+    font-size: 10px;
+    color: #a7a7a1; 
+}
+#image{
+    padding-top: 5px;
+    width: 100%;
+}
+#data{
+    display: flex;
+}
+.box-1{
+    flex-basis: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#data p{
+    padding: 5px 80px 0 80px;
+}
+#date{
+    border-radius: 15px;
+}
+.box-2{
+    display: flex;
+}
+.board{
+    flex-basis: auto;
+    width: 50%;
+    padding-top:30px ;
+    padding-right: 30px;
+}
+.board .performance{
+    flex-basis: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+table{
+    width: 100%;
+}
+.board img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px;
+}
+.board h5{
+    padding-left: 20px;
+}
+.board p{
+    font-size: 10px;
+    color: #a7a7a1; 
+}
+.board .people{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.view{
+    display: flex;
+}
+.view p{
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-left: 12px;
+    font-size: 12px;
+    color: #858582;
+}
+.view i{
+    padding-top: 9px;
+}
+.channels{
+    display: flex;
+    align-items: center;
+    background-color: #e9f5f3;
+    width: 92%;
+    margin-top: 30px;
+    padding: 20px 20px;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+.channels .cards{
+    position: relative;
+}
+
+.channels .cards .chan{
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+.channels h3{
+    padding-bottom: 10px;
+}
+.channels h4{
+    padding: 5px;
+}
+.channels .cards .cad{
+    width: 150px;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    
+}
+
+.channels .cards i{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+.channels .cards p{
+    padding: 5px;
+}
+.cad .fa-dribbble{
+    background-color: #f45d83;
+}
+.cad .fa-behance{
+    background-color: #5183ca;
+}
+.cad .fa-instagram{
+    background-color: #f9993e;
+}
+.cad .fa-pinterest-p{
+    background-color: rgb(254 92 55);
+}
+.channels .card{
+    width: 150px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(110, 188, 182);
+
+}
+.channels .card i{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    background-color:#fff;
+    
+}
+.channels .cards #num{
+    font-size: 25px;
+}
+
+
